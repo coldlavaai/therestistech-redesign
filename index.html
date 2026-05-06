@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Rest Is Tech - Premium B2B Tech Solutions</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>The Rest Is Tech - Strategic Technology Consulting</title>
+    <meta name="description" content="We partner with ambitious businesses to architect digital transformation through cloud infrastructure, intelligent automation, and strategic technology consulting.">
+    <link rel="stylesheet" href="styles-premium.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Clash+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="#main" class="skip-to-content">Skip to content</a>
+
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-text">The Rest Is Tech</span>
-            </div>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container nav-container">
+            <div class="nav-logo">The Rest Is Tech</div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                <li><a href="#contact" class="nav-link btn-primary">Get Started</a></li>
+                <li><a href="#approach" class="nav-link">Approach</a></li>
+                <li><a href="#cases" class="nav-link">Case Studies</a></li>
+                <li><a href="#insights" class="nav-link">Insights</a></li>
+                <li><a href="#contact" class="nav-link btn-primary">Get in Touch</a></li>
             </ul>
-            <div class="hamburger">
+            <div class="hamburger" aria-label="Menu toggle" role="button" tabindex="0">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -32,321 +33,382 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="grid-pattern"></div>
-        </div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="badge-text">Enterprise-Grade Solutions</span>
-                </div>
-                <h1 class="hero-title">
-                    <span class="gradient-text">Transform Your Business</span>
-                    <br>
-                    With Cutting-Edge Technology
-                </h1>
-                <p class="hero-description">
-                    We architect digital excellence through innovative cloud solutions,
-                    intelligent automation, and strategic technology consulting that drives
-                    measurable business growth.
-                </p>
-                <div class="hero-cta">
-                    <button class="btn-primary btn-large">
-                        Start Your Transformation
-                        <svg class="btn-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M7 10H13M13 10L10 7M13 10L10 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </button>
-                    <button class="btn-secondary btn-large">
-                        View Case Studies
-                    </button>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <span class="stat-number">150+</span>
-                        <span class="stat-label">Projects Delivered</span>
+    <main id="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-grid">
+                        <div class="hero-text">
+                            <div class="hero-label">Strategic Technology Consulting</div>
+                            <h1 class="hero-title">
+                                We transform ambitious businesses through
+                                <span class="emphasis">intelligent</span> technology
+                            </h1>
+                            <p class="hero-description">
+                                Partner with us to architect cloud infrastructure, implement intelligent automation,
+                                and build digital capabilities that drive measurable business outcomes.
+                            </p>
+                            <div class="hero-actions">
+                                <a href="#contact" class="btn btn-dark">Start a Conversation</a>
+                                <a href="#cases" class="btn btn-outline">View Our Work</a>
+                            </div>
+                            <div class="hero-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">150+</span>
+                                    <span class="metric-label">Projects Delivered</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">£50M</span>
+                                    <span class="metric-label">Value Generated</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">98%</span>
+                                    <span class="metric-label">Client Retention</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-visual">
+                            <div class="hero-pattern">
+                                <div class="pattern-line"></div>
+                                <div class="pattern-line"></div>
+                                <div class="pattern-line"></div>
+                                <div class="pattern-circle"></div>
+                                <div class="pattern-circle"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">98%</span>
-                        <span class="stat-label">Client Satisfaction</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">What We Do</div>
+                    <h2 class="section-title">Technology capabilities that accelerate growth</h2>
+                    <p class="section-description">
+                        We combine deep technical expertise with strategic thinking to deliver
+                        technology solutions that create lasting competitive advantage.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <span class="service-number">01</span>
+                        <h3 class="service-title">Cloud Architecture</h3>
+                        <p class="service-description">
+                            Design and implement scalable, secure cloud infrastructure that reduces costs
+                            while improving performance and reliability.
+                        </p>
+                        <div class="service-tags">
+                            <span class="service-tag">AWS</span>
+                            <span class="service-tag">Azure</span>
+                            <span class="service-tag">GCP</span>
+                            <span class="service-tag">Kubernetes</span>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">02</span>
+                        <h3 class="service-title">Digital Transformation</h3>
+                        <p class="service-description">
+                            Navigate complex digital change with confidence. We help you modernize legacy systems
+                            and build new digital capabilities.
+                        </p>
+                        <div class="service-tags">
+                            <span class="service-tag">Strategy</span>
+                            <span class="service-tag">Roadmapping</span>
+                            <span class="service-tag">Change Management</span>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">03</span>
+                        <h3 class="service-title">AI & Automation</h3>
+                        <p class="service-description">
+                            Implement intelligent automation and machine learning solutions that optimize
+                            operations and enhance decision-making.
+                        </p>
+                        <div class="service-tags">
+                            <span class="service-tag">Machine Learning</span>
+                            <span class="service-tag">RPA</span>
+                            <span class="service-tag">NLP</span>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">04</span>
+                        <h3 class="service-title">Custom Development</h3>
+                        <p class="service-description">
+                            Build bespoke software solutions tailored to your unique business requirements
+                            using modern architectures and practices.
+                        </p>
+                        <div class="service-tags">
+                            <span class="service-tag">APIs</span>
+                            <span class="service-tag">Microservices</span>
+                            <span class="service-tag">DevOps</span>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">05</span>
+                        <h3 class="service-title">Data & Analytics</h3>
+                        <p class="service-description">
+                            Transform data into strategic assets. We build analytics platforms that deliver
+                            actionable insights and drive informed decisions.
+                        </p>
+                        <div class="service-tags">
+                            <span class="service-tag">Data Engineering</span>
+                            <span class="service-tag">BI</span>
+                            <span class="service-tag">Visualization</span>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">06</span>
+                        <h3 class="service-title">Cybersecurity</h3>
+                        <p class="service-description">
+                            Protect your digital assets with enterprise-grade security. We implement
+                            comprehensive security frameworks and compliance programs.
+                        </p>
+                        <div class="service-tags">
+                            <span class="service-tag">Zero Trust</span>
+                            <span class="service-tag">Compliance</span>
+                            <span class="service-tag">SecOps</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Approach Section -->
+        <section id="approach" class="approach">
+            <div class="container">
+                <div class="approach-grid">
+                    <div class="approach-sidebar">
+                        <div class="section-label">Our Approach</div>
+                        <h2 class="approach-title">Pragmatic delivery with lasting impact</h2>
+                        <p class="section-description">
+                            We combine strategic thinking with hands-on technical expertise to deliver
+                            solutions that work in the real world.
+                        </p>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">50M+</span>
-                        <span class="stat-label">Revenue Generated</span>
+                    <div class="approach-phases">
+                        <article class="phase">
+                            <h3 class="phase-title">Discovery & Strategy</h3>
+                            <p class="phase-description">
+                                We begin by understanding your business context, challenges, and objectives.
+                                Through stakeholder interviews and technical audits, we identify opportunities
+                                and define a clear path forward.
+                            </p>
+                            <div class="phase-deliverables">
+                                <span class="deliverable">Technical Assessment</span>
+                                <span class="deliverable">Opportunity Mapping</span>
+                                <span class="deliverable">Strategic Roadmap</span>
+                            </div>
+                        </article>
+
+                        <article class="phase">
+                            <h3 class="phase-title">Architecture & Design</h3>
+                            <p class="phase-description">
+                                Our architects design robust, scalable solutions aligned with your business goals.
+                                We create detailed technical blueprints and validate approaches through prototypes
+                                and proof of concepts.
+                            </p>
+                            <div class="phase-deliverables">
+                                <span class="deliverable">Solution Architecture</span>
+                                <span class="deliverable">Technical Specifications</span>
+                                <span class="deliverable">Risk Assessment</span>
+                            </div>
+                        </article>
+
+                        <article class="phase">
+                            <h3 class="phase-title">Implementation & Delivery</h3>
+                            <p class="phase-description">
+                                We work alongside your teams to implement solutions using agile methodologies.
+                                Our focus on knowledge transfer ensures your team can maintain and evolve
+                                the solution independently.
+                            </p>
+                            <div class="phase-deliverables">
+                                <span class="deliverable">Agile Delivery</span>
+                                <span class="deliverable">CI/CD Pipeline</span>
+                                <span class="deliverable">Documentation</span>
+                            </div>
+                        </article>
+
+                        <article class="phase">
+                            <h3 class="phase-title">Optimization & Support</h3>
+                            <p class="phase-description">
+                                Post-launch, we monitor performance and optimize based on real-world usage.
+                                We provide ongoing support and strategic guidance to ensure continued success
+                                and evolution of your technology platform.
+                            </p>
+                            <div class="phase-deliverables">
+                                <span class="deliverable">Performance Monitoring</span>
+                                <span class="deliverable">Continuous Improvement</span>
+                                <span class="deliverable">Strategic Advisory</span>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">What We Do</span>
-                <h2 class="section-title">Premium Technology Services</h2>
-                <p class="section-description">
-                    End-to-end solutions designed to accelerate your digital transformation journey
-                </p>
-            </div>
-
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <div class="icon-bg"></div>
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <path d="M16 8L8 12L16 16L24 12L16 8Z" stroke="currentColor" stroke-width="2"/>
-                            <path d="M8 20L16 24L24 20" stroke="currentColor" stroke-width="2"/>
-                            <path d="M8 16L16 20L24 16" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </div>
-                    <h3 class="service-title">Cloud Architecture</h3>
-                    <p class="service-description">
-                        Scalable, secure cloud infrastructure designed for performance and reliability.
-                        AWS, Azure, and Google Cloud expertise.
+        <!-- Case Studies Section -->
+        <section id="cases" class="cases">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Case Studies</div>
+                    <h2 class="section-title">Delivering measurable business impact</h2>
+                    <p class="section-description">
+                        Real examples of how we've helped organizations transform their technology capabilities.
                     </p>
-                    <a href="#" class="service-link">
-                        Learn More
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 8H10M10 8L8 6M10 8L8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>
-                    </a>
                 </div>
 
-                <div class="service-card featured">
-                    <div class="service-icon">
-                        <div class="icon-bg"></div>
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <rect x="8" y="8" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
-                            <path d="M12 16L15 19L20 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="service-title">Digital Transformation</h3>
-                    <p class="service-description">
-                        Complete business digitization strategies that modernize operations,
-                        enhance customer experiences, and drive innovation.
-                    </p>
-                    <a href="#" class="service-link">
-                        Learn More
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 8H10M10 8L8 6M10 8L8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>
-                    </a>
-                </div>
+                <div class="cases-grid">
+                    <article class="case-card">
+                        <h3 class="case-client">Global Financial Services</h3>
+                        <div class="case-industry">Banking & Finance</div>
+                        <p class="case-description">
+                            Migrated legacy trading platform to cloud-native architecture, reducing latency by 60%
+                            and operational costs by £2M annually while improving system reliability.
+                        </p>
+                        <div class="case-metrics">
+                            <div class="case-metric">
+                                <span class="case-metric-value">60%</span>
+                                <span class="case-metric-label">Latency Reduction</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="case-metric-value">£2M</span>
+                                <span class="case-metric-label">Annual Savings</span>
+                            </div>
+                        </div>
+                    </article>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <div class="icon-bg"></div>
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <circle cx="16" cy="16" r="8" stroke="currentColor" stroke-width="2"/>
-                            <path d="M16 12V16L19 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="service-title">AI & Automation</h3>
-                    <p class="service-description">
-                        Intelligent automation solutions powered by machine learning and AI
-                        to optimize workflows and decision-making.
-                    </p>
-                    <a href="#" class="service-link">
-                        Learn More
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 8H10M10 8L8 6M10 8L8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>
-                    </a>
-                </div>
+                    <article class="case-card">
+                        <h3 class="case-client">Healthcare Provider Network</h3>
+                        <div class="case-industry">Healthcare</div>
+                        <p class="case-description">
+                            Implemented AI-powered patient flow optimization across 12 facilities, reducing wait times
+                            by 35% and improving patient satisfaction scores.
+                        </p>
+                        <div class="case-metrics">
+                            <div class="case-metric">
+                                <span class="case-metric-value">35%</span>
+                                <span class="case-metric-label">Reduced Wait Times</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="case-metric-value">4.8/5</span>
+                                <span class="case-metric-label">Patient Rating</span>
+                            </div>
+                        </div>
+                    </article>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <div class="icon-bg"></div>
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <path d="M16 8V24M8 16H24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <circle cx="16" cy="16" r="8" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </div>
-                    <h3 class="service-title">Custom Development</h3>
-                    <p class="service-description">
-                        Bespoke software solutions tailored to your unique business requirements
-                        using cutting-edge technologies.
-                    </p>
-                    <a href="#" class="service-link">
-                        Learn More
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 8H10M10 8L8 6M10 8L8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>
-                    </a>
-                </div>
+                    <article class="case-card">
+                        <h3 class="case-client">Retail & E-commerce Leader</h3>
+                        <div class="case-industry">Retail</div>
+                        <p class="case-description">
+                            Built real-time inventory management system integrating 200+ stores with online channels,
+                            increasing conversion rates and reducing stockouts.
+                        </p>
+                        <div class="case-metrics">
+                            <div class="case-metric">
+                                <span class="case-metric-value">28%</span>
+                                <span class="case-metric-label">Conversion Increase</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="case-metric-value">45%</span>
+                                <span class="case-metric-label">Stockout Reduction</span>
+                            </div>
+                        </div>
+                    </article>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <div class="icon-bg"></div>
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <path d="M16 8C11.5817 8 8 11.5817 8 16C8 20.4183 11.5817 24 16 24" stroke="currentColor" stroke-width="2"/>
-                            <path d="M16 16L24 16M24 16L21 13M24 16L21 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="service-title">Data Analytics</h3>
-                    <p class="service-description">
-                        Transform raw data into actionable insights with advanced analytics,
-                        visualization, and business intelligence.
-                    </p>
-                    <a href="#" class="service-link">
-                        Learn More
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 8H10M10 8L8 6M10 8L8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>
-                    </a>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <div class="icon-bg"></div>
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <path d="M16 8L8 16L16 24L24 16L16 8Z" stroke="currentColor" stroke-width="2"/>
-                            <path d="M16 16V24" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </div>
-                    <h3 class="service-title">Cybersecurity</h3>
-                    <p class="service-description">
-                        Enterprise-grade security solutions to protect your digital assets,
-                        ensure compliance, and maintain business continuity.
-                    </p>
-                    <a href="#" class="service-link">
-                        Learn More
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 8H10M10 8L8 6M10 8L8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>
-                    </a>
+                    <article class="case-card">
+                        <h3 class="case-client">Manufacturing Corporation</h3>
+                        <div class="case-industry">Manufacturing</div>
+                        <p class="case-description">
+                            Deployed IoT and predictive analytics across production lines, preventing equipment failures
+                            and optimizing maintenance schedules.
+                        </p>
+                        <div class="case-metrics">
+                            <div class="case-metric">
+                                <span class="case-metric-value">82%</span>
+                                <span class="case-metric-label">Failure Prevention</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="case-metric-value">£1.5M</span>
+                                <span class="case-metric-label">Downtime Savings</span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-content">
-                    <span class="section-badge">About Us</span>
-                    <h2 class="section-title">Pioneering Digital Excellence Since 2015</h2>
-                    <p class="about-description">
-                        We are a team of passionate technologists, innovators, and problem-solvers
-                        dedicated to helping businesses thrive in the digital age. Our approach
-                        combines technical expertise with strategic thinking to deliver solutions
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <h2 class="contact-title">Ready to transform your technology?</h2>
+                    <p class="contact-description">
+                        Let's discuss how we can help you build technology capabilities
                         that drive real business value.
                     </p>
-                    <div class="about-features">
-                        <div class="about-feature">
-                            <div class="feature-icon">✓</div>
-                            <div class="feature-text">
-                                <h4>Industry Leaders</h4>
-                                <p>Recognized experts in cloud, AI, and digital transformation</p>
-                            </div>
-                        </div>
-                        <div class="about-feature">
-                            <div class="feature-icon">✓</div>
-                            <div class="feature-text">
-                                <h4>Proven Track Record</h4>
-                                <p>Successfully delivered 150+ enterprise projects globally</p>
-                            </div>
-                        </div>
-                        <div class="about-feature">
-                            <div class="feature-icon">✓</div>
-                            <div class="feature-text">
-                                <h4>Client-Centric</h4>
-                                <p>Dedicated to understanding and exceeding client expectations</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-visual">
-                    <div class="visual-card">
-                        <div class="visual-gradient"></div>
-                        <div class="visual-content">
-                            <h3>Our Mission</h3>
-                            <p>To empower businesses through innovative technology solutions that drive growth, efficiency, and competitive advantage in an ever-evolving digital landscape.</p>
-                        </div>
+                    <div class="contact-actions">
+                        <a href="mailto:hello@therestistech.com" class="btn btn-dark">Schedule a Consultation</a>
+                        <a href="#" class="btn btn-outline">Download Capabilities</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <div class="cta-card">
-                <div class="cta-background">
-                    <div class="cta-gradient"></div>
-                    <div class="cta-pattern"></div>
-                </div>
-                <div class="cta-content">
-                    <h2 class="cta-title">Ready to Transform Your Business?</h2>
-                    <p class="cta-description">
-                        Let's discuss how our technology solutions can accelerate your growth
-                        and give you a competitive edge in your market.
-                    </p>
-                    <div class="cta-buttons">
-                        <button class="btn-primary btn-large">
-                            Schedule a Consultation
-                            <svg class="btn-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M7 10H13M13 10L10 7M13 10L10 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            </svg>
-                        </button>
-                        <button class="btn-glass btn-large">
-                            Download Our Capabilities
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-grid">
                 <div class="footer-brand">
-                    <h3 class="footer-logo">The Rest Is Tech</h3>
-                    <p class="footer-tagline">Transforming businesses through technology</p>
+                    <div class="footer-logo">The Rest Is Tech</div>
+                    <p class="footer-description">
+                        Strategic technology consulting for ambitious businesses.
+                        We architect digital transformation that delivers measurable results.
+                    </p>
                 </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Services</h4>
-                        <a href="#">Cloud Architecture</a>
-                        <a href="#">Digital Transformation</a>
-                        <a href="#">AI & Automation</a>
-                        <a href="#">Custom Development</a>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Company</h4>
-                        <a href="#">About Us</a>
-                        <a href="#">Case Studies</a>
-                        <a href="#">Careers</a>
-                        <a href="#">Contact</a>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Resources</h4>
-                        <a href="#">Blog</a>
-                        <a href="#">Whitepapers</a>
-                        <a href="#">Documentation</a>
-                        <a href="#">Support</a>
-                    </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <a href="#">Cloud Architecture</a>
+                    <a href="#">Digital Transformation</a>
+                    <a href="#">AI & Automation</a>
+                    <a href="#">Custom Development</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Case Studies</a>
+                    <a href="#">Insights</a>
+                    <a href="#">Careers</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <a href="mailto:hello@therestistech.com">hello@therestistech.com</a>
+                    <a href="tel:+442012345678">+44 20 1234 5678</a>
+                    <a href="#">London, UK</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 The Rest Is Tech. All rights reserved.</p>
-                <div class="footer-social">
-                    <a href="#" aria-label="LinkedIn">in</a>
-                    <a href="#" aria-label="Twitter">tw</a>
-                    <a href="#" aria-label="GitHub">gh</a>
+                <div class="footer-copyright">
+                    © 2024 The Rest Is Tech. All rights reserved.
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script-premium.js"></script>
 </body>
 </html>
